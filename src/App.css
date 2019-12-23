@@ -1,22 +1,60 @@
-.App {
-  text-align: center;
+#app-layout .logo {
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 16px 16px 0;
+  float: left;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  background: #f0f2f5
+}
+.avatar {
+  transition: all 0.5s;
+}
+.avatar:hover {
+  box-shadow: 0 0 4px #839192;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.add-btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+.shopping-cart {
+  font-size: 2.5em;
+  background: #3F51B5;
+  border-radius: 50%;
+  color: #fff;
+  padding: 8px;
+  transition: all 0.5s;
+  box-shadow: 0 0 8px #283593;
+}
+
+.shopping-cart:hover {
+  background: #5C6BC0;
+  box-shadow: 0 0 8px #3498DB;
+}
+
+.shop-logo-container {
+  width: 100%;
+  padding-top: 55%;
+  position: relative;
+}
+.shop-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-uploader .ant-upload.ant-upload-select-picture-card {
+  width: 295px;
+  height: 220px;
+}
+
+.image-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
 }

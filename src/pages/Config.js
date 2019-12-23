@@ -1,0 +1,1 @@
+export const fetchRoot = 'http://60.205.186.115';

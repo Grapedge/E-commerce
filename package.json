@@ -2,16 +2,26 @@
   "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://grapedge.github.io/e-commerce",
   "dependencies": {
+    "antd": "^3.25.1",
+    "babel-plugin-import": "^1.12.2",
+    "customize-cra": "^0.8.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "md5": "^2.2.1",
     "react": "^16.11.0",
+    "react-app-rewired": "^2.1.5",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
